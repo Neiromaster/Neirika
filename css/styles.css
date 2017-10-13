@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background: #050223;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+.gray {
+    background: #f0f3f4;
+}
+
+.online-color {
+    background-color: #96E144;
+}
+
+aside {
+    width: 130px;
+}
+
+.main-flex-container {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-13 {
+    padding-top: 13px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo img {
+    display: block;
+    width: 60px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo img {
+    border-radius: 50%;
+}
+
+.profile {
+    height: 84px;
+}
+
+.profile .photo {
+    width: 40px;
+    height: 40px;
+}
+
+.state {
+    margin-top: 10px;
+    background: rgba(150, 225, 68, .5);
+    border-radius: 2px;
+    width: 100px;
+    height: 18px;
+}
+
+.state p {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.actions li {
+    padding-top: 19px;
+    padding-bottom: 16px;
+}
+
+.actions li:last-child {
+    padding-bottom: 33px;
+}
+
+.actions img {
+    display: block;
+    vertical-align: bottom;
+}
+
+.horizontal-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside-border {
+    border-bottom: 1px solid #302E47;
+}
