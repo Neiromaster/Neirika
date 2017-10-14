@@ -34,6 +34,7 @@ p {
     background-color: #96E144;
 }
 
+/*asyde*/
 aside {
     width: 130px;
 }
@@ -116,3 +117,5 @@ aside {
 .aside-border {
     border-bottom: 1px solid #302E47;
 }
+
+/*navbar*/
