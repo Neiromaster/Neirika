@@ -56,18 +56,20 @@
                         <input type="text" placeholder="Добавочный">
                         <div class="select-outer">
                             <select name="" title="Алгоритм">
+                                <option disabled selected>Алгоритм</option>
                                 <option value="1">Алгоритм 1</option>
                                 <option value="2">Алгоритм 2</option>
                             </select>
-                            <a href="#" class="select-button"></a>
                         </div>
-                        <input type="text" placeholder="Мелодия ожидания">
+                        <div class="sound-chooser">
+                            <input type="text" placeholder="Мелодия ожидания">
+                        </div>
                         <div class="select-outer">
                             <select name="" title="Сотрудники">
+                                <option disabled selected>Сотрудники</option>
                                 <option value="Иванов">Иванов</option>
                                 <option value="Петров">Петров</option>
                             </select>
-                            <a href="#" class="select-button"></a>
                         </div>
                         <div class="buttons">
                             <input type="submit" class="create" value="Создать">
@@ -81,146 +83,146 @@
                             <img src="img/063_magnify.svg" alt="Поиск">
                             <input type="search" class="search" placeholder="Поиск"></div>
                         <div class="counter">
-                            <span>16</span>
-                            <span>групп</span>
-                            <a href="#"><img src="img/Shape.svg" alt="Export"></a>
+                            <div><span class="number">16</span>
+                                <span class="context">групп</span></div>
+                            <a href="#"></a>
                         </div>
                     </div>
-                    <table>
+                    <table class="main-table" cellspacing="0">
                         <tr>
-                            <th>Группа</th>
-                            <th>Добавочный</th>
-                            <th>Сотрудники</th>
-                            <th>В разговоре</th>
-                            <th>Распределение</th>
-                            <th></th>
+                            <th class="border-b align-left pl-29 pr-29">Группа</th>
+                            <th class="border-b align-center pl-29 pr-29">Добавочный</th>
+                            <th class="border-b align-center pl-29 pr-29">Сотрудники</th>
+                            <th class="border-b align-center pl-29 pr-29">В разговоре</th>
+                            <th class="border-b align-left pl-29 pr-29">Распределение</th>
+                            <th class="border-b align-center pr-29"></th>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pl-29 pr-29">1</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pl-29 pr-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pl-29 pr-29">2390</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pl-29 pr-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pl-29 pr-29">1</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pl-29 pr-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pl-29 pr-29">2390</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pl-29 pr-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pl-29 pr-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Без группы</td>
-                            <td></td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>Последовательный</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Без группы</td>
+                            <td class="border-b align-center pr-29 pl-29">1</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 3</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 3</td>
+                            <td class="border-b pr-29 pl-29">Последовательный</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                         <tr>
-                            <td>Развитие корпоративных клиентов</td>
-                            <td>2390</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>Одновременно все</td>
-                            <td></td>
+                            <td class="border-b align-left pl-29 pr-29">Развитие корпоративных клиентов</td>
+                            <td class="border-b align-center pr-29 pl-29">2390</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="accounts"></span> 10</td>
+                            <td class="border-b align-center pr-29 pl-29"><span class="phones"></span> 8</td>
+                            <td class="border-b pr-29 pl-29">Одновременно все</td>
+                            <td class="border-b align-center pr-29"><a class="more" href="#"></a></td>
                         </tr>
                     </table>
                 </div>
