@@ -1,41 +1,46 @@
+/*style reset*/
 body {
     margin: 0;
 }
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    padding: 0;
-    margin: 0;
-}
-
-p {
     margin: 0;
     padding: 0;
 }
 
+li, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/*clearfix*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* colors */
 .blue {
-    background: #050223;
+    background-color: #050223;
 }
 
 .white {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .gray {
-    background: #f0f3f4;
+    background-color: #f0f3f4;
 }
 
 .online-color {
     background-color: #96E144;
 }
 
+/*asyde*/
 aside {
-    width: 130px;
+    flex: 0 1 130px;
 }
 
 .main-flex-container {
@@ -93,12 +98,11 @@ aside {
     text-align: center;
 }
 
-.actions li {
+.actions li:first-child {
     padding-top: 19px;
-    padding-bottom: 16px;
 }
 
-.actions li:last-child {
+.actions li {
     padding-bottom: 33px;
 }
 
@@ -116,3 +120,81 @@ aside {
 .aside-border {
     border-bottom: 1px solid #302E47;
 }
+
+/*main block*/
+.right-side {
+    flex: 1 1 0;
+}
+
+.header {
+    border-bottom: 1px solid #DEE5E7;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+nav li {
+    padding: 15px 12px;
+    margin-right: 18px;
+}
+
+nav li:first-child {
+    margin-left: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 13px;
+    color: #98A6AD;
+    line-height: 15px;
+}
+
+.active {
+    position: relative;
+}
+
+.active a {
+    color: #58666E;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #35B8FF;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+}
+
+.shop {
+    background: #35B8FF;
+    border-radius: 2px;
+    display: inline-block;
+    width: 144px;
+    height: 32px;
+    float: right;
+    margin: 9px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.43px;
+    line-height: 33px;
+    text-align: center;
+}
+
+/*content*/
+.right-side main {
+    padding: 30px;
+}
+
+.content {
+    box-shadow: 1px 0 4px 0 rgba(0, 0, 0, 0.14);
+}
+
