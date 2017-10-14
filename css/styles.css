@@ -284,6 +284,14 @@ input:-moz-placeholder { /* Firefox 18- */
     margin-top: 16px;
 }
 
+.file-chooser {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer
+}
+
 .buttons {
     position: absolute;
     left: 0;
